@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>супрематизм</title>
+  </head>
+  <style media="screen">
+    .all{
+      position: relative;
+      margin: 0 auto;
+      width: 100%;
+      height: 100vh;
+      background-color: #F9F3DB;
+      overflow: hidden;
+    }
+    .painting{
+      position: relative;
+      left: -2vw;
+      top: -42vw;
+      scale: 50%;
+    }
+    #red{
+      background-color: #EE2524 ;
+      position: relative;
+    }
+    .red1{
+      width: 30vw;
+      height: 10vw;
+      rotate: 75deg;
+      top: 25vw;
+      left: 40vw;
+      z-index: 2;
+    }
+    .red2{
+      width: 10vw;
+      height: 5vw;
+      rotate: 17deg;
+      top: 22vw;
+      left: 37vw;
+      z-index: 5;
+    }
+    .red3{
+      width: 30vw;
+      height: 11vw;
+      rotate: 43deg;
+      top: 30vw;
+      left: 15vw;
+      z-index: 2;
+    }
+    .red4{
+      width: 80vw;
+      height: 6vw;
+      rotate: 135deg;
+      top: 28vw;
+      left: 15vw;
+      z-index: 5;
+    }
+    .red5{
+      width: 25vw;
+      height: 5vw;
+      rotate: 160deg;
+      top: 55vw;
+      left: 30vw;
+      z-index: 5;
+    }
+    .red6{
+      width: 8vw;
+      height: 4vw;
+      rotate: 160deg;
+      top: 60vw;
+      left: 37vw;
+      z-index: 5;
+    }
+    .red7{
+      width: 25vw;
+      height: 2vw;
+      rotate: 46deg;
+      top: 44vw;
+      left: 54vw;
+      z-index: 5;
+    }
+    .red8{
+      width: 15vw;
+      height: 3vw;
+      rotate: -46deg;
+      top: 16vw;
+      left: 54vw;
+      z-index: 5;
+    }
+    .red9{
+      width: 20vw;
+      height: 10vw;
+      rotate: 96deg;
+      top: 16vw;
+      left: 68vw;
+      z-index: 5;
+    }
+    .red10{
+      width: 5vw;
+      height: 3vw;
+      rotate: 46deg;
+      top: 43vw;
+      left: 78vw;
+      z-index: 5;
+    }
+    #black{
+      background-color: black;
+      position: relative;
+    }
+    .black1{
+      width: 35vw;
+      height: 35vw;
+      border-radius: 100%;
+      z-index: 1;
+      bottom: 20vw;
+      left: 34vw;
+    }
+    .black2{
+      width: 12vw;
+      height: 12vw;
+      border-radius: 100%;
+      z-index: 6;
+      bottom: 34vw;
+      left: 70vw;
+    }
+    .black3{
+      width: 23vw;
+      height: 6vw;
+      z-index: 6;
+      rotate: 20deg;
+      bottom: 84vw;
+      left: 33vw;
+    }
+    .black4{
+      width: 13vw;
+      height: 1.5vw;
+      z-index: 6;
+      rotate: 20deg;
+      bottom: 81vw;
+      left: 28vw;
+    }
+    .black5{
+      width: 20vw;
+      height: 1.8vw;
+      z-index: 6;
+      rotate: 75deg;
+      bottom: 84vw;
+      left: 52.5vw;
+    }
+    .black6{
+      width: 25vw;
+      height: 2.5vw;
+      z-index: 6;
+      rotate: 48deg;
+      bottom: 85vw;
+      left: 65vw;
+    }
+    .black7{
+      width: 70vw;
+      height: 10vw;
+      z-index: 4;
+      rotate: 42deg;
+      bottom: 40vw;
+      left: 15vw;
+    }
+    .black8{
+      width: 4vw;
+      height: 3vw;
+      z-index: 4;
+      rotate: 42deg;
+      bottom: 30vw;
+      left: 85vw;
+    }
+    .black9{
+      width:20vw;
+      height: 1.5vw;
+      z-index: 6;
+      rotate: -20deg;
+      bottom: 39vw;
+      left: 25vw;
+    }
+    .black10{
+      width:13vw;
+      height: 10vw;
+      z-index: 4;
+      rotate: -47deg;
+      bottom: 55vw;
+      left: 62vw;
+    }
+    .black11{
+      width:6vw;
+      height: 2vw;
+      z-index: 6;
+      rotate: 45deg;
+      bottom: 96vw;
+      left: 22vw;
+    }
+    #white{
+      background-color: #F9F3DB;
+      position: relative;
+    }
+    .white1{
+      width: 70vw;
+      height: 5vw;
+      z-index: 3;
+      rotate: 42deg;
+      bottom: 67.7vw;
+      left: 22vw;
+    }
+    .white2{
+      width: 30vw;
+      height: 2vw;
+      z-index: 6;
+      rotate: -22deg;
+      bottom: 56vw;
+      left: 30vw;
+    }
+    .white3{
+      width: 20vw;
+      height: 1vw;
+      z-index: 6;
+      rotate: -45.8deg;
+      bottom: 90.5vw;
+      left: 53vw;
+    }
+    .white4{
+      width: 15vw;
+      height: 3vw;
+      z-index: 3;
+      rotate: 75deg;
+      bottom: 127vw;
+      left: 52vw;
+    }
+
+  </style>
+  <body>
+    <div class="all">
+      <div class="painting">
+        <div class="red1" id="red"></div>
+        <div class="red2" id="red"></div>
+        <div class="red3" id="red"></div>
+        <div class="red4" id="red"></div>
+        <div class="red5" id="red"></div>
+        <div class="red6" id="red"></div>
+        <div class="red7" id="red"></div>
+        <div class="red8" id="red"></div>
+        <div class="red9" id="red"></div>
+        <div class="red10" id="red"></div>
+
+        <div class="black1" id="black"></div>
+        <div class="black2" id="black"></div>
+        <div class="black3" id="black"></div>
+        <div class="black4" id="black"></div>
+        <div class="black5" id="black"></div>
+        <div class="black6" id="black"></div>
+        <div class="black7" id="black"></div>
+        <div class="black8" id="black"></div>
+        <div class="black9" id="black"></div>
+        <div class="black10" id="black"></div>
+        <div class="black11" id="black"></div>
+
+        <div class="white1" id="white"></div>
+        <div class="white2" id="white"></div>
+        <div class="white3" id="white"></div>
+        <div class="white4" id="white"></div>
+      </div>
+
+
+    </div>
+
+  </body>
+</html>
